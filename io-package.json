@@ -134,7 +134,10 @@
         "readme": "https://github.com/unltdnetworx/ioBroker.energymanager/blob/master/README.md",
         "loglevel": "info",
         "type": "energy",
-        "license": "MIT",
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
         "dependencies": [
             {"js-controller": ">=3.3.22"}
         ],
