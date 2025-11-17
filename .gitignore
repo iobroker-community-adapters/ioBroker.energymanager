@@ -7,3 +7,6 @@ nbproject
 iob_npm.done
 iobroker-data
 /iobroker-data
+
+#ignore .commitinfo created by ioBroker release script
+.commitinfo
