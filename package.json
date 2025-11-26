@@ -1,32 +1,23 @@
 {
+  "name": "iobroker.energymanager",
   "version": "1.4.2",
+  "description": "energymanager for kiwigrid powered devices",
   "author": {
     "name": "Michael Schuster",
     "email": "development@unltd-networx.de"
   },
-  "bugs": {
-    "url": "https://github.com/unltdnetworx/ioBroker.energymanager/issues"
-  },
   "contributors": [
     {
-      "name": "Michael Schuster",
-      "email": "development@unltd-networx.de"
+      "name": "iobroker-community-adapters",
+      "email": "iobroker-community-adapters@gmx.de"
+    },
+    {
+      "name": "mcm1957",
+      "email": "mcm57@gmx.at"
     }
   ],
-  "dependencies": {
-    "@iobroker/adapter-core": "^2.6.8",
-    "request": "^2.88.2"
-  },
-  "deprecated": false,
-  "description": "energymanager for kiwigrid powered devices",
-  "devDependencies": {
-    "chai": "^4.3.7",
-    "eslint": "^8.45.0",
-    "gulp": "^5.0.0",
-    "mocha": "^10.2.0",
-    "kind-of": ">=6.0.3"
-  },
-  "homepage": "https://github.com/unltdnetworx/ioBroker.energymanager",
+  "homepage": "https://github.com/iobroker-community-adaoters/ioBroker.energymanager",
+  "license": "MIT",
   "keywords": [
     "ioBroker",
     "energymanager",
@@ -38,14 +29,48 @@
     "innogy",
     "enviam"
   ],
-  "license": "MIT",
-  "main": "main.js",
-  "name": "iobroker.energymanager",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unltdnetworx/ioBroker.energymanager.git"
+    "url": "git+https://github.com/iobroker-community-adaoters/ioBroker.energymanager.git"
   },
+  "engines": {
+    "node": ">= 20"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^2.6.8",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.45.0",
+    "gulp": "^5.0.0",
+    "mocha": "^10.2.0",
+    "kind-of": ">=6.0.3"
+  },
+  "main": "main.js",
+  "files": [
+    "admin{,/!(src)/**}/!(tsconfig|tsconfig.*).json",
+    "admin{,/!(src)/**}/*.{html,css,png,svg,jpg,js}",
+    "lib/**/*.js",
+    "io-package.json",
+    "LICENSE",
+    "main.js"
+  ],
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --exit"
-  }
+    "test": "npm run test:js && npm run test:package",
+    "test:js": "mocha --config test/mocharc.custom.json \"{!(node_modules|test)/**/*.test.js,*.test.js,test/**/test!(PackageFiles|Startup).js}\"",
+    "test:package": "mocha test/package --exit",
+    "test:integration": "mocha test/integration --exit",
+    "lint": "eslint -c eslint.config.mjs .",
+    "translate": "translate-adapter",
+    "release": "release-script",
+    "update-svg": "node lib/jsonConfigSvg",
+    "release-patch": "release-script patch --yes",
+    "release-minor": "release-script minor --yes",
+    "release-major": "release-script major --yes"
+  },
+  "bugs": {
+    "url": "https://github.com/iobroker-community-adaoters/ioBroker.energymanager/issues"
+  },
+  "readmeFilename": "README.md"
 }
