@@ -109,7 +109,9 @@
             "zh-cn": "基维格压发电装置的能源manager。 已确认为E.ON Aura和太阳能保护公司"
           },
         "authors": [
-            "Michael Schuster <development@unltd-networx.de>"
+            "Michael Schuster <development@unltd-networx.de>",
+            "iobroker-community-adapters <iobroker-community-adapters@gmx.de>",
+            "mcm1957 <mcm57@gmx.at>"
         ],
         "docs": {
             "en": "docs/en/admin.md",
@@ -129,9 +131,9 @@
         "icon": "energymanager.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/unltdnetworx/ioBroker.energymanager/master/admin/energymanager.png",
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adaoters/ioBroker.energymanager/master/admin/energymanager.png",
         "keywords": ["energymanager", "GUI", "EON Aura", "Solarwatt MyReserver"],
-        "readme": "https://github.com/unltdnetworx/ioBroker.energymanager/blob/master/README.md",
+        "readme": "https://github.com/iobroker-community-adaoters/ioBroker.energymanager/blob/master/README.md",
         "loglevel": "info",
         "tier": 2,
         "type": "energy",
@@ -140,7 +142,14 @@
             "license": "MIT"
         },
         "dependencies": [
-            {"js-controller": ">=3.3.22"}
+          {
+            "js-controller": ">=6.0.11"
+          }
+        ],
+        "globalDependencies": [
+          {
+            "admin": ">=7.6.17"
+          }
         ],
         "messagebox": false,
         "compact": true,
