@@ -123,15 +123,12 @@ Help or hints are welcome.
 
 * more translations added, to refresh states delete energymanager object with all values. will be created new.
 
-## Donate
-
-Kaffee spendieren/serve a coffee
-<https://paypal.me/unltdnetworx>
 
 ## License
 
 The MIT License (MIT)
 
+Copyright (c) 2025 iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2018-2023 Michael Schuster <development@unltd-networx.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
