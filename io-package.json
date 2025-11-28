@@ -1,11 +1,11 @@
 {
   "common": {
     "name": "energymanager",
-    "version": "2.0.0-alpha.0",
+    "version": "2.0.0",
     "news": {
-      "2.0.0-alpha.0": {
+      "2.0.0": {
         "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
-        "de": "Adapter wurde auf iobroker-community-Adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
+        "de": "Adapter wurde zur iobroker-community-adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
         "ru": "Адаптер был перенесен в организацию адаптации сообщества йоброкеров\nАдаптер требует node.js >= 20, js-контроллер >= 6.0.11 и админ >= 7.6.17 сейчас\nЗависимости были обновлены",
         "pt": "Adaptador foi migrado para iobroker-community-adaptadores organização\nO adaptador necessita de nodo.js >= 20, js-controlador >= 6.0.11 e administrador >= 7.6.17 agora\nAs dependências foram atualizadas",
         "nl": "Adapter is gemigreerd naar iobroker-community-adapters organisatie\nVoor adapters zijn node.js < 20, js-controller <= 6,0.11 en admin <= 7.6.17 nu vereist\nAfhankelijkheden zijn bijgewerkt",
@@ -80,19 +80,6 @@
         "pl": "trąbka",
         "uk": "шемале",
         "zh-cn": "b ugfix"
-      },
-      "1.3.2": {
-        "en": "ready for Admin 5 and NodeJS 16",
-        "de": "bereit für Admin 5 und NodeJS 16",
-        "ru": "готов к Admin 5 и NodeJS 16",
-        "pt": "pronto para Admin 5 e NodeJS 16",
-        "nl": "klaar voor Admin 5 en NodeJS 16",
-        "fr": "prêt pour Admin 5 et NodeJS 16",
-        "it": "pronto per Admin 5 e NodeJS 16",
-        "es": "listo para Admin 5 y NodeJS 16",
-        "pl": "admin 5 i NodeJS 16",
-        "uk": "готовий до Admin 5 і NodeJS 16",
-        "zh-cn": "准备为Admin 5和NodeJS 16"
       }
     },
     "titleLang": {
