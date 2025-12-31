@@ -51,7 +51,7 @@ This adapter would not have been possible without the great work of Michael Schu
 
 The MIT License (MIT)
 
-Copyright (c) 2025 iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
+Copyright (c) 2025-2026 iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2018-2023 Michael Schuster <development@unltd-networx.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
