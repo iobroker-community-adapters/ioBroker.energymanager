@@ -28,11 +28,9 @@ This adapter would not have been possible without the great work of Michael Schu
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-
-## Changelog
-
 ### **WORK IN PROGRESS**
 - (copilot) Adapter requires admin >= 7.7.22 now
+- (mcm1957) Migrated to ESLint 9 using @iobroker/eslint-config
 
 ### 2.0.0 (2025-11-28)
 * (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation
