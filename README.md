@@ -31,6 +31,7 @@ This adapter would not have been possible without the great work of Michael Schu
 
 ### **WORK IN PROGRESS**
 - (copilot) Adapter requires admin >= 7.7.22 now
+- (mcm1957) Dependencies have been updated
 
 ### 2.0.0 (2025-11-28)
 * (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation
