@@ -1,4 +1,7 @@
 # Older changes
+## 1.3.4
+* support for discovered but not installed devices
+
 ## 1.3.3
 * bugfix
 

@@ -28,8 +28,7 @@ This adapter would not have been possible without the great work of Michael Schu
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 2.0.1 (2026-03-05)
 - (copilot) Adapter requires admin >= 7.7.22 now
 - (mcm1957) Dependencies have been updated
 
@@ -46,9 +45,6 @@ This adapter would not have been possible without the great work of Michael Schu
 
 ### 1.3.5
 * changed the year in readme and license
-
-### 1.3.4
-* support for discovered but not installed devices
 
 ## License
 

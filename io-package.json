@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "energymanager",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "news": {
+      "2.0.1": {
+        "en": "Adapter requires admin >= 7.7.22 now\nDependencies have been updated",
+        "de": "Adapter benötigt admin >= 7.7.22 jetzt\nAbhängigkeiten wurden aktualisiert",
+        "ru": "Адаптер требует администратора >= 7.7.22\nЗависимости были обновлены",
+        "pt": "Adaptador requer admin >= 7.7.22 agora\nAs dependências foram atualizadas",
+        "nl": "Adapter vereist admin < 7.7.22 nu\nAfhankelijkheden zijn bijgewerkt",
+        "fr": "Adaptateur nécessite admin >= 7.7.22 maintenant\nLes dépendances ont été actualisées",
+        "it": "Adattatore richiede admin >= 7.7.22 ora\nLe dipendenze sono state aggiornate",
+        "es": "El adaptador requiere admin= 7.7.22 ahora\nSe han actualizado las dependencias",
+        "pl": "Adapter wymaga admin > = 7.7.22\nZaktualizowano zależności",
+        "uk": "Адаптер вимагає адмін >= 7.7.22 тепер\nЗалежність було оновлено",
+        "zh-cn": "适任者需要管理员 \\ 7.7.22 现在\n依赖关系已更新"
+      },
       "2.0.0": {
         "en": "Adapter has been migrated to iobroker-community-adapters organisation\nAdapter requires node.js >= 20, js-controller >= 6.0.11 and admin >= 7.6.17 now\nDependencies have been updated",
         "de": "Adapter wurde zur iobroker-community-adapter Organisation migriert\nAdapter benötigt node.js >= 20, js-controller >= 6.0.11 und admin >= 7.6.17 jetzt\nAbhängigkeiten wurden aktualisiert",
