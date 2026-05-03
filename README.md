@@ -49,6 +49,8 @@ This adapter would not have been possible without the great work of Michael Schu
 ### 1.3.5
 * changed the year in readme and license
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 The MIT License (MIT)
