@@ -143,6 +143,9 @@
     "mode": "daemon",
     "icon": "energymanager.png",
     "materialize": true,
+    "adminUI": {
+      "config": "json"
+    },
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.energymanager/master/admin/energymanager.png",
     "keywords": [
@@ -177,6 +180,9 @@
   "native": {
     "managerType": "eon",
     "managerAddress": "",
-    "managerIntervall": 15
+    "managerIntervall": 15,
+    "managerPassword": "",
+    "managerRounding": "no",
+    "managerStateExpireTimeout": ""
   }
 }

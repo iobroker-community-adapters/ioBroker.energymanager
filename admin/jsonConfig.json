@@ -1,0 +1,75 @@
+{
+  "i18n": true,
+  "type": "panel",
+  "items": {
+    "managerAddress": {
+      "type": "text",
+      "label": "IP address",
+      "help": "IP address of the energymanager",
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "managerIntervall": {
+      "type": "text",
+      "label": "intervall",
+      "help": "intervall for values to pull",
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "managerPassword": {
+      "type": "password",
+      "label": "manager password",
+      "help": "password for the energymanager",
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "managerRounding": {
+      "type": "select",
+      "label": "round values",
+      "options": [
+        {
+          "label": "no",
+          "value": "no"
+        },
+        {
+          "label": "yes",
+          "value": "yes"
+        }
+      ],
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "managerStateExpireTimeout": {
+      "type": "text",
+      "label": "state expire timeout",
+      "help": "[optional] timeout for the states until they expire (in seconds, -1 to disable expire)",
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 6,
+      "xl": 6
+    },
+    "_compatibilityNote": {
+      "type": "staticText",
+      "text": "Confirmed for E.ON energymanager and Solarwatt manager. Other kiwigrid-powered devices could work.",
+      "newLine": true,
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12,
+      "xl": 12
+    }
+  }
+}
