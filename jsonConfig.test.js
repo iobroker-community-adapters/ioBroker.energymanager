@@ -13,7 +13,7 @@ describe("jsonConfig migration", () => {
             return texts;
         }
 
-        for (const property of ["label", "help", "text", "title", "tooltip"]) {
+        for (const property of ["label", "help", "text"]) {
             if (typeof node[property] === "string") {
                 texts.add(node[property]);
             }

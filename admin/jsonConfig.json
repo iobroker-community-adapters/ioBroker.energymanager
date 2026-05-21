@@ -20,7 +20,8 @@
       "sm": 12,
       "md": 6,
       "lg": 6,
-      "xl": 6
+      "xl": 6,
+      "validator": "data.managerIntervall !== undefined && data.managerIntervall !== null && /^(?:[1-9]\\d*)$/.test(String(data.managerIntervall))"
     },
     "managerPassword": {
       "type": "password",
@@ -59,7 +60,8 @@
       "sm": 12,
       "md": 6,
       "lg": 6,
-      "xl": 6
+      "xl": 6,
+      "validator": "data.managerStateExpireTimeout === '' || data.managerStateExpireTimeout === undefined || data.managerStateExpireTimeout === null || /^(?:-1|\\d+)$/.test(String(data.managerStateExpireTimeout))"
     },
     "_compatibilityNote": {
       "type": "staticText",
