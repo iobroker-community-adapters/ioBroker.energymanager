@@ -142,7 +142,6 @@
     "platform": "Javascript/Node.js",
     "mode": "daemon",
     "icon": "energymanager.png",
-    "materialize": true,
     "adminUI": {
       "config": "json"
     },
