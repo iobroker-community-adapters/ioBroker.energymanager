@@ -45,6 +45,16 @@ describe("jsonConfig migration", () => {
         assert.equal(fs.existsSync(jsonConfigPath), true);
     });
 
+    it("migrates the legacy admin fields to jsonConfig", () => {
+        const jsonConfig = JSON.parse(fs.readFileSync(jsonConfigPath, "utf8"));
+
+        assert.equal(jsonConfig.items.managerAddress.type, "text");
+        assert.equal(jsonConfig.items.managerIntervall.type, "text");
+        assert.equal(jsonConfig.items.managerPassword.type, "password");
+        assert.equal(jsonConfig.items.managerRounding.type, "select");
+        assert.equal(jsonConfig.items.managerStateExpireTimeout.type, "text");
+    });
+
     it("provides translations for all jsonConfig texts", () => {
         const jsonConfig = JSON.parse(fs.readFileSync(jsonConfigPath, "utf8"));
         const files = fs.readdirSync(i18nDir).filter(file => file.endsWith(".json")).sort();
