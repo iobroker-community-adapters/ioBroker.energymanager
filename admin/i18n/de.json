@@ -1,8 +1,8 @@
 {
   "IP address": "IP-Adresse",
   "IP address of the energymanager": "IP-Adresse des Energymanagers",
-  "intervall": "Intervall",
-  "intervall for values to pull": "Intervall zum Abrufen der Werte",
+  "interval": "Intervall",
+  "interval for values to pull": "Intervall zum Abrufen der Werte",
   "manager password": "Manager-Passwort",
   "password for the energymanager": "Passwort für den Energymanager",
   "round values": "Werte runden",

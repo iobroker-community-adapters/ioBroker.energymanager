@@ -1,14 +1,14 @@
 {
-  "IP address": "IP address",
-  "IP address of the energymanager": "IP address of the energymanager",
-  "intervall": "intervall",
-  "intervall for values to pull": "intervall for values to pull",
-  "manager password": "manager password",
-  "password for the energymanager": "password for the energymanager",
-  "round values": "round values",
-  "no": "no",
-  "yes": "yes",
-  "state expire timeout": "state expire timeout",
-  "[optional] timeout for the states until they expire (in seconds, -1 to disable expire)": "[optional] timeout for the states until they expire (in seconds, -1 to disable expire)",
-  "Confirmed for E.ON energymanager and Solarwatt manager. Other kiwigrid-powered devices could work.": "Confirmed for E.ON energymanager and Solarwatt manager. Other kiwigrid-powered devices could work."
+  "IP address": "Adres IP",
+  "IP address of the energymanager": "Adres IP menedżera energii",
+  "interval": "Interwał",
+  "interval for values to pull": "Interwał odczytu wartości",
+  "manager password": "Hasło menedżera",
+  "password for the energymanager": "Hasło do energymanagera",
+  "round values": "Zaokrąglaj wartości",
+  "no": "nie",
+  "yes": "tak",
+  "state expire timeout": "Czas wygaśnięcia stanów",
+  "[optional] timeout for the states until they expire (in seconds, -1 to disable expire)": "[opcjonalnie] czas do wygaśnięcia stanów (w sekundach, -1 aby wyłączyć wygasanie)",
+  "Confirmed for E.ON energymanager and Solarwatt manager. Other kiwigrid-powered devices could work.": "Potwierdzone dla E.ON energymanager i Solarwatt manager. Inne urządzenia oparte na kiwigrid mogą działać."
 }

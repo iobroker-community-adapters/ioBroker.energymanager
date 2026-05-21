@@ -14,8 +14,8 @@
     },
     "managerIntervall": {
       "type": "text",
-      "label": "intervall",
-      "help": "intervall for values to pull",
+      "label": "interval",
+      "help": "interval for values to pull",
       "xs": 12,
       "sm": 12,
       "md": 6,
