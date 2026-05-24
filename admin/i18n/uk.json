@@ -1,0 +1,14 @@
+{
+  "IP address": "IP-адреса",
+  "IP address of the energymanager": "IP-адреса енергоменеджера",
+  "interval": "Інтервал",
+  "interval for values to pull": "Інтервал опитування значень",
+  "manager password": "Пароль менеджера",
+  "password for the energymanager": "Пароль для енергоменеджера",
+  "round values": "Округлювати значення",
+  "no": "ні",
+  "yes": "так",
+  "state expire timeout": "Тайм-аут завершення станів",
+  "[optional] timeout for the states until they expire (in seconds, -1 to disable expire)": "[необов'язково] час до завершення станів (у секундах, -1 вимикає завершення)",
+  "Confirmed for E.ON energymanager and Solarwatt manager. Other kiwigrid-powered devices could work.": "Підтверджено для E.ON energymanager і Solarwatt manager. Інші пристрої на базі kiwigrid теж можуть працювати."
+}
