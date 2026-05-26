@@ -142,7 +142,6 @@
     "platform": "Javascript/Node.js",
     "mode": "daemon",
     "icon": "energymanager.png",
-    "materialize": true,
     "enabled": true,
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.energymanager/master/admin/energymanager.png",
     "keywords": [
@@ -172,7 +171,10 @@
     "messagebox": false,
     "compact": true,
     "connectionType": "local",
-    "dataSource": "poll"
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "materialize"
+    }
   },
   "native": {
     "managerType": "eon",
